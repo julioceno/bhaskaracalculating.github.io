@@ -70,52 +70,5 @@ function bhaskara() {
     // Limpando as caixinhas
     ax2Page.value = ''
     bxPage.value = ''
-    cPage.value = ''
- 
-    
+    cPage.value = ''   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//     Δ = b(${b})² -4 * a * c <br>
-//     Δ = ${bSquare} -4 * ${aTimesC} <br>
-//     Δ = ${bSquare} - ${times4} <br>
-//     Δ = ${delta}<br>
-//     <br> 
-
-//     x' = -(${b}) + &${theSquare} = ---${xLineAccount} = --- ${xLineResult.toFixed(3).replace('.' , ',')}<br> 
-//     <div id = "line"> </div>
-//     <div id = "line-bottom">  2 * ${a}= ---${calculatingA} </div> </br>            
-//    <br>
-
-//    x'' = -(${b}) - &${theSquare} = ---${xTwoLineAccount} = --- ${xTwoLineResult.toFixed(3).replace('.' , ',')}<br> 
-//    <div id = "line"> </div>
-//    <div id = "line-bottom">  2 * ${a}= ---${calculatingA} </div> </br>
- 
-    
