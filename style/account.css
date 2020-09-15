@@ -1,0 +1,27 @@
+#page-main #container #page-center #answer #line { 
+    border-top: 1px solid var(--color-primary);
+}
+
+#page-main #container #page-center #answer #space {
+    display: inline-block;
+}
+
+#page-main #container #page-center #answer #negativeDelta{
+    font-style: italic;
+}
+
+
+@media (min-width: 1000px) {
+
+    #page-main #container #page-center #answer {
+        font-size: 4vh;
+    }
+
+    #page-main #container #page-center #answer #line { 
+        width: 30vw;
+        margin-right: auto;
+        margin-left: auto;
+
+
+    }
+}

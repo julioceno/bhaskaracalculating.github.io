@@ -1,0 +1,19 @@
+:root {
+    --color-page: #e5e5e5;
+    --color-primary: #120136;
+    --color-secondary:  #fa7d09;
+    --color-alternative: #40bad5;
+    --color-font: #ffffff;
+    --color-button: #fe346e;
+    --color-button-dark: #fe346e;
+}
+
+body {
+    background: var(--color-page);
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,118 @@
+#page-main #container {
+    background:#142850;
+    height: 120vh;
+    width: 90vw;
+    margin: auto;
+    padding-top: 30vh;
+
+}
+
+#page-main #container #page-center {
+    background: var(--color-secondary);
+    height: 30vh;
+    width: 80vw;
+    margin: auto;
+    border-radius: 1rem;
+    text-align: center;
+    
+    
+}
+
+#page-main #container #page-center h1 {
+    color: var(--color-font);
+    font-size: 8vh;
+    font: italic;
+}
+
+#page-main #container #page-center #data {
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+#page-main #container #page-center #data p {
+    color: var(--color-font);
+    font-size: 5vh;
+ 
+}
+
+#page-main #container #page-center #data input {
+    width: 10vw;
+    height: 5vh;
+    background: var(--color-page);
+    text-decoration: none;
+    border: none;
+    transition: background 0.2s;
+    cursor: pointer;
+    width: 12vw;
+
+}
+
+#page-main #container #page-center #data input:hover {
+    background: #dae1e7;
+}
+
+#page-main #container #page-center #button {
+    margin-top: 18px;
+    margin-left: 50vw;
+
+    height: 30px;
+    width: 20vw;
+    border: 0;
+    background: #f1f1f1;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+
+#page-main #container #page-center #button:hover {
+    background: #dae1e7;
+}
+
+#page-main #container  #answer {
+    margin: 20px;
+    color: #f1f1f1;
+    font-size: 3.4vh;
+    line-height: 5vh;
+    text-align: center;
+}
+
+
+@media (min-width: 700px) {
+
+   
+
+    #page-main #container #page-center #data input {
+      width: 12vh;
+    }
+
+    #page-main #container #page-center #button {
+        height: 5vh;
+
+        font-size: 2vh;
+        
+        margin-top: 3vh;
+        margin-left: 50vw;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    #page-main #container #page-center {
+        width: 60vw;
+    }
+    
+    #page-main #container #page-center #data input {
+        width: 20vh;
+    }
+
+    #page-main #container #page-center #button {
+        margin-top: 3.5vh;
+
+        margin-left: 30vw;
+          
+    }
+  
+} 
