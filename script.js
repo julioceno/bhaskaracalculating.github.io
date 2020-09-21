@@ -34,8 +34,7 @@ function bhaskara() {
     const xTwoLineResult = xTwoLineAccont / calculatingA
 
     if (deltaTheSquare) { // Se  a raiz quadrada conseguir ser fatorada ela é positiva, então o calculo será feito.
-    document.getElementById('page-center').style.height ='90vh' // Como é gerado html no script quando clicar no botão o calculo iria sair pra o 
-                                                                //conteúdo Como é gerado html no script quando clicar no botão o calculo iria sair pra 
+    document.getElementById('page-center').style.height ='90vh' //Como é gerado html no script quando clicar no botão o calculo iria sair pra 
                                                                // fora da caixa laranja, com isso quando apertar o botão a div irá aumentar
 
 
