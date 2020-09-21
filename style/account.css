@@ -1,3 +1,7 @@
+#page-main #container #page-center #answer {
+    font-size: 2vh;
+}
+
 #page-main #container #page-center #answer #line { 
     border-top: 1px solid var(--color-primary);
 }
@@ -6,10 +10,20 @@
     display: inline-block;
 }
 
+#page-main #container #page-center #answer #multiplicationAdjustment {
+    display: inline-block;
+    margin-left: -35px;
+}
+
+#page-main #container #page-center #answer #multiplicationAdjustmentResult {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
 #page-main #container #page-center #answer #negativeDelta{
     font-style: italic;
 }
-
 
 @media (min-width: 1000px) {
 

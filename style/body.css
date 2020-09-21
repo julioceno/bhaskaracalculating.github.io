@@ -32,7 +32,7 @@
 
 #page-main #container #page-center #data p {
     color: var(--color-font);
-    font-size: 5vh;
+    font-size: 4vh;
  
 }
 
@@ -64,7 +64,6 @@
     cursor: pointer;
 }
 
-
 #page-main #container #page-center #button:hover {
     background: #dae1e7;
 }
@@ -77,10 +76,7 @@
     text-align: center;
 }
 
-
 @media (min-width: 700px) {
-
-   
 
     #page-main #container #page-center #data input {
       width: 12vh;
